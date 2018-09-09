@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title> Video 3 tutorial jquery</title>
+</head>
+<body>
+	<h1 class="saludo">Lorem ipsum dolor sit amet.</h1>
+	<p id="parrafo">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur, hic.</p>
+	<div></div>
+	<div></div>
+	<div></div>
+	<div></div>
+
+	<script src="js/jquery.min.js"></script>
+	
+	<script>
+		$(document).ready(function(){
+			$('#parrafo').text('Texto modifido desde script con jquery');
+			$('.saludo').css({'background-color':'red'});
+			$('div').text('Texto agregado al div desde jquery');
+		});	
+	</script>
+
+</body>
+</html>
