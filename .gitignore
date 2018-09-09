@@ -1,4 +1,2 @@
-/js/node_modules/*
+#Omite Archivos descargados por node
 /js/node_modules/
-js/node_modules/*
-js/node_modules/
