@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Video 7 tutorial jQuery</title>
+</head>
+<body>
+	<h1 class="saludo">Lorem ipsum dolor sit amet.</h1><br />
+	
+	
+	<!-- <p id="parrafo" class="saludo ocultar">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur, hic.</p><br />	 -->
+
+	<a href="http://jquery.local/">Regresar al inicio</a>
+	
+	<style type="text/css">
+		.ocultar{
+			display: none;
+		}	
+	</style>
+
+	<script src="js/jquery.min.js"></script>
+	<script>
+		//En v6.js está el codigo que hace los cambios de clases y id 
+		$.when($.ready, $.getScript('js/v9.js')).then(function(){
+			console.log('pasó la prueba');
+		}).catch(function(){
+			console.log('No pasó la prueba');
+		});
+	</script>
+</body>
+</html>
