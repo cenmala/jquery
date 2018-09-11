@@ -17,5 +17,5 @@ $('p').attr('id','parrafo_nuevo');
 var idpNew = $('p').attr('id');
 alert(idpNew);
 
-$('.h1_saludo').attr('class','parrafo');
-$('#parrafo_nuevo').attr('id','saludo');
+$('.h1_saludo').attr('class','saludo-modificado');
+$('#parrafo_nuevo').attr('id','parrafo-modificado');
