@@ -6,14 +6,28 @@
 </head>
 <body>
 	<h1 class="saludo">Lorem ipsum dolor sit amet.</h1>
-	<p id="parrafo">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur, hic.</p>
-	<div>Lorem ipsum dolor.</div>
-	<div></div>
+	<!-- <p id="parrafo">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur, hic.</p> -->
+	<!-- <div>Lorem ipsum dolor.</div> -->
+	<!-- <div></div> -->
 
 	<script src="js/jquery.min.js"></script>
 
 	<script>
-		
+
+		//cuando todo está bien
+		$.when($.ready, $.getScript('js/v5.js')).then(function(){
+			console.log('pasó la prueba');
+		}).catch(function(){
+			console.log('No pasó la prueba');
+		});
+
+		// cuando hay problemas
+		$.when($.ready, $.getScript('js/v5-5.js')).then(function(){
+			console.log('pasó la prueba');
+		}).catch(function(){
+			console.log('No pasó la prueba');
+		});
+
 	</script>
 
 </body>
