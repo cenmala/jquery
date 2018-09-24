@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Video 13 tutorial jQuery</title>
+</head>
+<body>
+	
+	<h1 class="saludo">Lorem ipsum dolor sit amet.</h1><br />
+	
+	<img id="img-coco" src="img/coco.jpg" alt="">
+	<p id="parrafo">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur, hic.</p><br />
+
+	
+	
+	<script src="js/jquery.min.js"></script>
+	<script>
+		//En v6.js está el codigo que hace los cambios de clases y id 
+		$.when($.ready, $.getScript('js/v13.js')).then(function(){
+			console.log('pasó la prueba');
+		}).catch(function(){
+			console.log('No pasó la prueba');
+		});
+	</script>
+</body>
+<footer>
+	<a href="http://jquery.local/">Regresar al inicio</a>
+</footer>
+</html>
