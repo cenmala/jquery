@@ -28,6 +28,10 @@ $(function(){
 	var r = 2;
 
 	for (let color of colors) {
+		console.log(color);	
+	}
+
+	for (let color of colors) {
 		// alert("Nombre Color: "+color.colors[p].colorName+" "+"Código Hexa Color: "+color.colors[p].colorHexa);
 		// alert("Nombre Color: "+color.colors[q].colorName+" "+"Código Hexa Color: "+color.colors[q].colorHexa);
 		// alert("Nombre Color: "+color.colors[r].colorName+" "+"Código Hexa Color: "+color.colors[r].colorHexa);
