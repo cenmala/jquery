@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Video 16 tutorial jQuery</title>
+</head>
+<body>
+	<center>
+		<h1><i class="fa fa-volume-up" id="icon"></i></h1>
+	</center>
+	<br>
+	<center>
+		<h1><i class="fa fa-volume-up" id="icon2"></i></h1>
+	</center>
+</body>
+<footer>
+	<a href="http://jquery.local/">Regresar al inicio</a>
+
+	<script src="https://use.fontawesome.com/e622d3b53e.js"></script>
+	<script src="js/jquery.min.js"></script>
+	<script>
+		//En v6.js está el codigo que hace los cambios de clases y id 
+		$.when($.ready, $.getScript('js/v16.js')).then(function(){
+			console.log('pasó la prueba');
+		}).catch(function(){
+			console.log('No pasó la prueba');
+		});
+	</script>
+</footer>
+</html>
