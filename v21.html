@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Video 18 tutorial jQuery</title>
+</head>
+<body style=" height : 1500px">
+  <center>
+    <h1>Lorem ipsum dolor sit amet.</h1>
+    <button id="up" style="margin-top: 1400px" >UP</button>
+  </center>
+</body>
+
+<footer>
+	  <a href="http://jquery.local/">Regresar al inicio</a>
+
+    <script src="js/jquery.min.js"></script>
+  	<script>
+  		//En v6.js está el codigo que hace los cambios de clases y id
+  		$.when($.ready, $.getScript('js/v21.js')).then(function(){
+  			console.log('pasó la prueba');
+  		}).catch(function(){
+  			console.log('No pasó la prueba');
+  		});
+  	</script>
+</footer>
+</html>
