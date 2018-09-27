@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Video 18 tutorial jQuery</title>
+</head>
+<body>
+  <center>
+    <h1>Lorem ipsum dolor sit amet.</h1>
+  </center>
+  <style>
+    .cubo{
+      position: absolute;
+      background-color: purple;
+      width: 100px;
+      height: 100px;
+      margin-top: 5%;
+      top: 50px;
+      left: 750px;
+    }
+  </style>
+
+  <center>
+    <div class="cubo"></div>
+    <!-- <br> -->
+    <button id="left" class="fa fa-backward"></button>
+    <button id="right" class="fa fa-forward"></button>
+    <button id="up" class="fa fa-caret-up"></button>
+    <button id="down" class="fa fa-caret-down"></button>
+  </center>
+
+</body>
+
+<footer>
+	<a href="http://jquery.local/">Regresar al inicio</a>
+
+  <script src="https://use.fontawesome.com/e622d3b53e.js"></script>
+	<script src="js/jquery.min.js"></script>
+  <script>
+		$.when($.ready, $.getScript('js/v18.js')).then(function(){
+			console.log('pasó la prueba');
+		}).catch(function(){
+			console.log('No pasó la prueba');
+		});
+	</script>
+</footer>
+</html>
