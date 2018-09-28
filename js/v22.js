@@ -17,7 +17,22 @@ $(function(){
 	});
 
 	$('#exe4').click(function(){
-		i++;
 		$('ol').append($('ol li:first'));
 	});
+
+	$('#exe5').click(function(){
+		$('ol').prepend($('ol li:last'));
+	});
+
+	$('#exe6').click(function(){
+		var clon = $('ol li:last').text();
+		console.log(clon);
+		$('h1').append(clon);
+		$('ol').prepend($('ol li:last'));
+	});
+
+	$('#exe7').click(function(){
+		$('ol li:last').remove();
+	});
+
 });
