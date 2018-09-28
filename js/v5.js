@@ -1,1 +1,1 @@
-alert('Hola los saluda Cesar desde v5.js');
+console.log('Hola los saluda Cesar desde v5.js');
