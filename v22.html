@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Video 18 tutorial jQuery</title>
+</head>
+<body>
+
+  <h1>Lorem ipsum dolor sit amet.</h1>
+  <ol>
+    <li>Lorem ipsum dolor.</li>
+    <li>Sint pariatur, vel.</li>
+    <li>Tenetur, suscipit itaque?</li>
+    <li>At, iusto, sequi?</li>
+  </ol>
+  <br/>
+  <button id="exe1">Ejecutar 1</button>
+  <button id="exe2">Ejecutar 2</button>
+  <button id="exe3">Ejecutar 3</button>
+
+</body>
+
+<footer>
+  <a href="http://jquery.local/">Regresar al inicio</a>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script>
+		$.when($.ready, $.getScript('js/v22.js')).then(function(){
+			console.log('pasó la prueba');
+		}).catch(function(){
+			console.log('No pasó la prueba');
+		});
+	</script>
+</footer>
+</html>
