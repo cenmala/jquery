@@ -4,8 +4,8 @@ $(function(){
 	// $('body').css({'height':'1500px'});
 
 	$('#up').click(function(){
-		$('body').animate({scrollTop:0},'3000');
-		console.log('entra al clic de up');
+		$('body').animate({scrollTop: 0},'700');
+		// console.log('Entra al clic de UP
 	});
 
 	var scro = 500;

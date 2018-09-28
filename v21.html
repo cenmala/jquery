@@ -14,16 +14,15 @@
 </body>
 
 <footer>
-	  <a href="http://jquery.local/">Regresar al inicio</a>
+  <a href="http://jquery.local/">Regresar al inicio</a>
 
-    <script src="js/jquery.min.js"></script>
-  	<script>
-  		//En v6.js está el codigo que hace los cambios de clases y id
-  		$.when($.ready, $.getScript('js/v21.js')).then(function(){
-  			console.log('pasó la prueba');
-  		}).catch(function(){
-  			console.log('No pasó la prueba');
-  		});
-  	</script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script>
+		$.when($.ready, $.getScript('js/v21.js')).then(function(){
+			console.log('pasó la prueba');
+		}).catch(function(){
+			console.log('No pasó la prueba');
+		});
+	</script>
 </footer>
 </html>
