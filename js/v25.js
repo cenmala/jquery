@@ -6,6 +6,5 @@ $(function(){
 	console.log(obj);
 	console.log("Nombre: "+obj.Nombre);
 	console.log("Apellido: "+obj.Apellido);
-
 	console.log("Edad: "+obj.Edad);
 });
