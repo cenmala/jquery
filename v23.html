@@ -4,27 +4,19 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Video 22 tutorial jQuery</title>
+  <title>Video 23 tutorial jQuery</title>
 </head>
 <body>
 
   <h1>Lorem ipsum dolor sit amet.</h1>
-  <ol>
+  <ol id="padre">
     <li>Texto 1</li>
-    <li>Texto 2</li>
+    <li class="hijo">Texto 2</li>
     <li>Texto 3</li>
     <li>Texto 4</li>
   </ol>
-  <hr>
-  <h1 id="clonado"></h1>
-  <br/>
-  <button id="exe1">Agrega dentro de ol fuera de li</button>
-  <button id="exe2">Agrega al final de li</button>
-  <button id="exe3">Agrega al inicio de li</button>
-  <button id="exe4">Mover primero al final del li</button>
-  <button id="exe5">Mover ultimo al inicio del li</button>
-  <button id="exe6">Mueve ultimo al primero y lo clona texto en el h1</button>
-  <button id="exe7">Elimina ultimo de li</button>
+
+  <button id="informacion">Ver info en consola</button>
 
 </body>
 <footer>
@@ -32,7 +24,7 @@
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<script>
-		$.when($.ready, $.getScript('js/v22.js')).then(function(){
+		$.when($.ready, $.getScript('js/v23.js')).then(function(){
 			console.log('pasó la prueba');
 		}).catch(function(){
 			console.log('No pasó la prueba');
