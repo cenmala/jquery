@@ -8,7 +8,7 @@ $(function(){
 
 		 $(".e-virtual").click(function(){
 			 console.log('Entra al clic del elemento virtual');
-			 alert('Este es un elemento Virtual')
+			 alert('Este es un elemento Virtual');
 		 });
 	 });
 });
